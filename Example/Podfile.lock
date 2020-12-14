@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LoginRepository (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LoginRepository (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LoginRepository:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LoginRepository: 7cd5756c214d6a0dbd9650c7dccb6fb8c91778a1
+
+PODFILE CHECKSUM: 7a326705e76817990b1b5134e339a6b2dd16d09b
+
+COCOAPODS: 1.9.1
