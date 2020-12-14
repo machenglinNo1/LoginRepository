@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LoginRepository_Example' do
+  pod 'LoginRepository', :path => '../'
+
+  target 'LoginRepository_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
